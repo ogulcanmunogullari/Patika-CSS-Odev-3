@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google | Search Page</title>
+    <style>
+        *{
+            list-style-type: none;
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            
+        }
+        main{
+            width: 960px;
+            position: absolute;
+            left: 25%;
+            top: 25%;
+        }
+        button{
+            padding: 0px 10px;
+        }
+        .bottom-div{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .bottom-div div{
+            margin: 2px 1px;
+        }
+        .grey{
+            background-color: #EEEEEE;
+        }
+        .a-yesil{
+            background-color: #7EE5DA;
+            width: 330px;
+            padding: 12px 0px;
+        }
+        .o-yesil{
+            background-color: #70CCC2;
+            width: 230px;
+        }
+        .k-yesil{
+            background-color: #62B3AA;
+            width: 400px;
+        }
+        input{
+            width: 320px;
+        }
+        li input{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En ortada duracak ana gövde -->
+    <main>
+        <!-- Ana gövdenin üst kısmı -->
+        <div class="top-div">
+            <!-- Logo kısmı -->
+            <div class="div-logo">
+                <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="logo">
+            </div>
+            <!-- Search bar kısmı -->
+            <div class="grey">
+                    Search the web using Google!
+                    <div>
+                        <input type="text">
+                    </div>
+                <!-- Butonları içine alan div -->
+                <div>
+                    <button>
+                        Google Search
+                    </button>
+                    <button>
+                        I'm feeling lucky
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Ana gövdenin alt kısmı -->
+        <div class="bottom-div">
+            <!-- Sol kutu -->
+            <div class="a-yesil">
+                <ul>
+                    <li>
+                        Special Searches
+                    </li>
+                    <li>
+                        <a href="">
+                            Stanford Search
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Linux Search
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Orta kutu -->
+            <div class="o-yesil">
+                <ul>
+                    <li>
+                        <a href="">
+                            Help!
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About Google!
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Company Info
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Google Logos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Sağ kutu -->
+            <div class="k-yesil">
+                <ul>
+                    <li>
+                            Get Google!
+                            <br>
+                            updates monthly:
+                    </li>
+                    <li>
+                        <input type="text" placeholder="your e-mail">
+                    </li>
+                    <li>
+                        <button>
+                            Subscribe
+                        </button>
+                        <a href="">
+                            Archive
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>
+                Copyright ©1998 Google Inc.
+            </p>
+        </footer>
+    </main>
+
+</body>
+</html>
